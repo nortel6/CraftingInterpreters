@@ -13,8 +13,8 @@ You can just view the GitHub Languages section.
 
 # 2.
 ```
-javac -d . HelloWorld.java
-java challenges.introduction.HelloWorld
+javac HelloWorld.java
+java HelloWorld
 
 # Or you can set the class path to whatever you want I guess...
 ```
@@ -24,5 +24,4 @@ java challenges.introduction.HelloWorld
 make run
 # For memory leaks check
 valgrind ./test.out
-
 ```
